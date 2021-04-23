@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HolyCpp.cpp" />
+    <ClCompile Include="PrConsole.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PrConsole.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
