@@ -3,10 +3,12 @@
 
 using namespace std;
 
-void console() {
+void console() 
+{
 	string cmd;
 	while (true) {
 		cout << ">>> ";
 		getline(cin, cmd);
+		
 	}
 }
