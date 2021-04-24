@@ -6,11 +6,13 @@ using namespace std;
 
 class PrintFunction: public BaseFunction {
     public:
-        bool checkFunc(string s) {
+        bool checkFunc(string s) 
+        {
             
         }
 
-        void executeFunc(string s) {
+        void executeFunc(string s) 
+        {
 
         }
 };
