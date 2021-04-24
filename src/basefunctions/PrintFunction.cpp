@@ -5,8 +5,12 @@
 using namespace std;
 
 class PrintFunction: public BaseFunction {
-    public: 
-        void executeFunc(string s) {
+    public:
+        bool checkFunc(string s) {
             
+        }
+
+        void executeFunc(string s) {
+
         }
 };
