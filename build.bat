@@ -1,3 +1,3 @@
 echo Building HolyCpp
-g++ -c ./src/HolyCpp.cpp -o HolyCpp
+g++ ./src/HolyCpp.cpp ./src/basefunctions/BaseFunction.h ./src/basefunctions/PrintFunction.cpp ./src/basefunctions/PrintFunction.h -o HolyCpp
 echo Build finish!

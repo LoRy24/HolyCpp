@@ -7,4 +7,5 @@ class BaseFunction {
     public:
         virtual bool checkFunc(string s);
         virtual void executeFunc(string s);
+        virtual string getId();
 };
